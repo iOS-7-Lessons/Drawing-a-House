@@ -14,6 +14,7 @@
 		FA3D94D81A18E0710048AAE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3D94D71A18E0710048AAE8 /* Images.xcassets */; };
 		FA3D94DB1A18E0710048AAE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3D94D91A18E0710048AAE8 /* LaunchScreen.xib */; };
 		FA3D94E71A18E0710048AAE8 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D94E61A18E0710048AAE8 /* Drawing_a_HouseTests.m */; };
+		FA3D94F21A18E0B20048AAE8 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D94F11A18E0B20048AAE8 /* MyCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FA3D94E01A18E0710048AAE8 /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3D94E51A18E0710048AAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3D94E61A18E0710048AAE8 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		FA3D94F01A18E0B20048AAE8 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCustomView.h; path = ../MyCustomView.h; sourceTree = "<group>"; };
+		FA3D94F11A18E0B20048AAE8 /* MyCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCustomView.m; path = ../MyCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		FA3D94C91A18E0710048AAE8 /* Drawing a House */ = {
 			isa = PBXGroup;
 			children = (
+				FA3D94F01A18E0B20048AAE8 /* MyCustomView.h */,
+				FA3D94F11A18E0B20048AAE8 /* MyCustomView.m */,
 				FA3D94CE1A18E0710048AAE8 /* AppDelegate.h */,
 				FA3D94CF1A18E0710048AAE8 /* AppDelegate.m */,
 				FA3D94D11A18E0710048AAE8 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3D94D31A18E0710048AAE8 /* ViewController.m in Sources */,
+				FA3D94F21A18E0B20048AAE8 /* MyCustomView.m in Sources */,
 				FA3D94D01A18E0710048AAE8 /* AppDelegate.m in Sources */,
 				FA3D94CD1A18E0710048AAE8 /* main.m in Sources */,
 			);
