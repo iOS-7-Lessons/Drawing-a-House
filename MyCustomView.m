@@ -40,11 +40,23 @@
     [roof fill];
     [roof stroke];
     
+    /* We can create a CGRect using the method CGRectMake and then add it as a argument for the bezierPathWithRect. This returns a 4 point shape with the specified points in the CGRect. */
+    UIBezierPath *leftWindowPath = [UIBezierPath bezierPathWithRect:CGRectMake(1/3.0 * self.bounds.size.width, 1/2.5 * self.bounds.size.height, 1/12.0 * self.bounds.size.width, 1/24.0 * self.bounds.size.height)];
+    
+    [[UIColor blueColor] setFill];
+    [leftWindowPath fill];
+    [leftWindowPath stroke];
+    
+    UIBezierPath *rightWindowPath = [UIBezierPath bezierPathWithRect:CGRectMake(1.75/3.0 * self.bounds.size.width, 1/2.5 * self.bounds.size.height, 1/12.0 * self.bounds.size.width, 1/24.0 * self.bounds.size.height)];
+    
+    [[UIColor blueColor] setFill];
+    [rightWindowPath fill];
+    [rightWindowPath stroke];
+    
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat screenHeigth = [UIScreen mainScreen].bounds.size.height;
     NSLog(@"Screen Width %f Height %f", screenWidth, screenHeigth);
     NSLog(@"View's x %f y %f", self.bounds.size.width, self.bounds.size.height);
-    
 }
 
 
